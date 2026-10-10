@@ -5,8 +5,8 @@
         android:allowBackup="false"
         android:extractNativeLibs="false"
         android:hasCode="true"
-        android:label="酷狗地区解锁"
-        android:description="解除酷狗概念版的地区限制，境外可正常播放与下载 VIP 曲目。"
+        android:label="@string/app_name"
+        android:description="@string/xposed_description"
         android:supportsRtl="true" />
 
 </manifest>
