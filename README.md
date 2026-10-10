@@ -80,7 +80,7 @@ echo "sdk.dir=/path/to/Android/sdk" > local.properties
 
 ## 局限
 
-- **仅针对酷狗概念版**：包名写死在 `Config.TARGET_PACKAGE`，标准版（`com.kugou.android`）类名不同，需另行适配。
+- **仅针对酷狗概念版**：包名为 `Config.TARGET_PACKAGE`，标准版（`com.kugou.android`）类名不同，需另行适配。
 - **依赖类名 / 方法签名**：酷狗更新若重命名相关类，hook 会失效（日志出现 `hook FAIL` 即说明该类已变动）。
 - **部分方法被加固**：`g.a(int)` 在 4.1.7 上受腾讯 Sword 保护，但本模块用整体替换式 hook，不依赖其内部实现，仍有效。
 - **只解锁「境外限制」**：不解锁会员 / 付费曲库，受版权方单独限制的曲目仍无法播放。
