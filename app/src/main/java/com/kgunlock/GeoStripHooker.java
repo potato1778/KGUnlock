@@ -23,7 +23,7 @@ final class GeoStripHooker implements XposedInterface.Hooker {
 
     @Override
     @SuppressWarnings("unchecked")
-    public Object intercept(XposedInterface.Chain chain) {
+    public Object intercept(XposedInterface.Chain chain) throws Throwable {
         if (chain.getArgs().size() < 2) {
             return chain.proceed();
         }

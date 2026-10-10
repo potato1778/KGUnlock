@@ -18,7 +18,7 @@ import io.github.libxposed.api.XposedInterface;
 final class ServerResponseHooker implements XposedInterface.Hooker {
 
     @Override
-    public Object intercept(XposedInterface.Chain chain) {
+    public Object intercept(XposedInterface.Chain chain) throws Throwable {
         if (Config.VERBOSE_LOG) {
             Object value = null;
             try {
