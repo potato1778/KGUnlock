@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="false"
+        android:extractNativeLibs="false"
+        android:hasCode="true"
+        android:label="酷狗地区解锁"
+        android:description="解除酷狗概念版的地区限制，境外可正常播放与下载 VIP 曲目。"
+        android:supportsRtl="true" />
+
+</manifest>
