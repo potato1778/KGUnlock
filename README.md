@@ -6,7 +6,11 @@
 
 **本模块没有设置界面** —— 安装并在框架中启用、勾选酷狗概念版作用域后即生效，无需任何配置。
 
-[![Build](https://github.com/potato1778/KGUnlock/actions/workflows/build.yml/badge.svg)](../../actions)
+<div align="center">
+
+[![Build](https://github.com/potato1778/KGUnlock/actions/workflows/build.yml/badge.svg)](https://github.com/potato1778/KGUnlock/actions/workflows/build.yml) [![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com) [![Framework](https://img.shields.io/badge/Framework-LSPosed%20%2F%20LSPatch-2196F3)](https://lsposed.org) [![libxposed](https://img.shields.io/badge/libxposed-API%20101-FF9800)](https://github.com/LSPosed/LSPosed) [![License](https://img.shields.io/github/license/potato1778/KGUnlock)](https://opensource.org/licenses/MIT) [![Release](https://img.shields.io/github/v/release/potato1778/KGUnlock)](https://github.com/potato1778/KGUnlock/releases) [![Downloads](https://img.shields.io/github/downloads/potato1778/KGUnlock/total)](https://github.com/potato1778/KGUnlock/releases)
+
+</div>
 
 ## 目录
 
