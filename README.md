@@ -1,10 +1,23 @@
 # KGUnlock
 
+> 其他语言：[English](README_EN.md)
+
 解锁酷狗概念版（`com.kugou.android.lite`）在境外的歌曲试听 / 下载限制。基于 **libxposed API 101** 的 LSPosed / LSPatch 模块。
 
 **本模块没有设置界面** —— 安装并在框架中启用、勾选酷狗概念版作用域后即生效，无需任何配置。
 
 [![Build](https://github.com/potato1778/KGUnlock/actions/workflows/build.yml/badge.svg)](../../actions)
+
+## 目录
+
+- [原理](#原理)
+  - [Hook 一览](#hook-一览)
+- [已验证环境](#已验证环境)
+- [安装](#安装)
+- [自行构建](#自行构建)
+- [局限](#局限)
+- [免责声明](#免责声明)
+- [License](#license)
 
 ---
 

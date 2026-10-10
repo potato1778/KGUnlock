@@ -1,10 +1,23 @@
 # KGUnlock
 
+> Other languages: [中文](README.md)
+
 Unlock the regional restrictions of **Kugou Concept/Lite edition** (`com.kugou.android.lite`) — lift the overseas limits on song preview and download. An LSPosed / LSPatch module built on **libxposed API 101**.
 
 **This module has no settings UI.** Install it, enable it in your framework, and tick Kugou Concept/Lite in its scope — it takes effect immediately with zero configuration.
 
 [![Build](https://github.com/potato1778/KGUnlock/actions/workflows/build.yml/badge.svg)](../../actions)
+
+## Table of Contents
+
+- [How it works](#how-it-works)
+  - [Hook overview](#hook-overview)
+- [Verified environment](#verified-environment)
+- [Installation](#installation)
+- [Build it yourself](#build-it-yourself)
+- [Limitations](#limitations)
+- [Disclaimer](#disclaimer)
+- [License](#license)
 
 ---
 
